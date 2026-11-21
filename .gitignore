@@ -1,0 +1,18 @@
+# 构建与编译输出
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# 本地运行时与日志文件 (严防个人隐私泄露)
+app.log*
+last_id.txt
+settings.json
+.perm_test
+dist/app.log*
+dist/last_id.txt
+dist/settings.json
+
+# IDE 与编辑器临时文件
+.vscode/
+.idea/
